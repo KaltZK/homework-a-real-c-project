@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-double fadd(double, double);
-double fsub(double, double);
-double fmul(double, double);
-double fdiv(double, double);
+#include "funcs.h"
 
 int line(){
         double a,b;

@@ -1,5 +1,7 @@
 #include <stdio.h>
-int line(void);
+
+#include "scanner.h"
+
 int main(){
         while(line());
         fputs("Bye.\n",stdout);
