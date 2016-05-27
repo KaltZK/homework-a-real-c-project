@@ -1,5 +1,5 @@
 caculator: funcs.o scanner.o main.o 
-	gcc -Wall funcs.o scanner.o main.o -o caculator 
+	gcc -Wall funcs.o scanner.o main.o -o calculator 
 
 main.o: funcs.o
 	gcc -c -Wall main.c -o main.o
